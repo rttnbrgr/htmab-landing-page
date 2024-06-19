@@ -11,6 +11,8 @@ import {
 } from 'lucide-react';
 import React from 'react';
 
+import '@/styles/colors.css';
+
 import Button from '@/components/buttons/Button';
 import IconButton from '@/components/buttons/IconButton';
 import TextButton from '@/components/buttons/TextButton';
@@ -45,7 +47,7 @@ export default function ComponentPage() {
           )}
         >
           <h1>Built-in Components</h1>
-          <ArrowLink direction='left' className='mt-2' href='/'>
+          <ArrowLink direction='left' className='mt-2' href='/template'>
             Back to Home
           </ArrowLink>
 
