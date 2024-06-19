@@ -4,10 +4,7 @@ import Head from 'next/head';
 import * as React from 'react';
 import '@/lib/env';
 
-import ArrowLink from '@/components/links/ArrowLink';
-import ButtonLink from '@/components/links/ButtonLink';
 import UnderlineLink from '@/components/links/UnderlineLink';
-import UnstyledLink from '@/components/links/UnstyledLink';
 
 /**
  * SVGR Support
@@ -16,7 +13,6 @@ import UnstyledLink from '@/components/links/UnstyledLink';
  * You can override the next-env if the type is important to you
  * @see https://stackoverflow.com/questions/68103844/how-to-override-next-js-svg-module-declaration
  */
-import Logo from '~/svg/Logo.svg';
 
 export default function HomePage() {
   return (
@@ -24,36 +20,54 @@ export default function HomePage() {
       <Head>
         <title>Hi</title>
       </Head>
-      <section className='bg-white'>
+      <section className='bg-bg'>
+        {/* <ViewStarter /> */}
         <div className='layout relative flex min-h-screen flex-col items-center justify-center py-12 text-center'>
-          <Logo className='w-16' />
-          <h1 className='mt-4'>Next.js + Tailwind CSS + TypeScript Starter</h1>
+          {/* Black Box */}
+          <div className='bg-fg text-bg px-6 py-9'>
+            {/* Magic box */}
+            <div className='border-4 border-dotted border-bg  aspect-square min-w-12 max-w-[168px] w-[20vw]' />
+            {/* Text */}
+            <div className='flex flex-col gap-10 items-start text-left max-w-[460px]'>
+              <div className='flex flex-col gap-0 items-start '>
+                <h2 className='text-2xl font-normal leading-tight bg-red-300'>
+                  How to build a button
+                </h2>
+                <p className='text-2xl font-normal italic leading-tight '>
+                  An introduction to the work of design systems
+                </p>
+              </div>
+
+              <p className='text-2xl font-normal italic leading-tight bg-red-200'>
+                Learn how to design and develop a button, deliver components for
+                your team, and manage abstraction.
+              </p>
+            </div>
+          </div>
+
+          {/* You should write this */}
+          {/*
+
+          <h1 className='mt-4'>How to build a button</h1> 
           <p className='mt-2 text-sm text-gray-800'>
-            A starter for Next.js, Tailwind CSS, and TypeScript with Absolute
-            Import, Seo, Link component, pre-configured with Husky{' '}
+            I'm baby williamsburg flexitarian keffiyeh affogato bespoke ascot
+            bushwick whatever unicorn DIY man bun direct trade. Echo park
+            coloring book four loko tilde unicorn gentrify. Normcore shoreditch
+            JOMO meh cold-pressed cronut. Wolf pickled gluten-free blackbird
+            spyplane shaman butcher fashion axe kale chips. Poke roof party put
+            a bird on it asymmetrical chambray bitters iPhone keffiyeh. Chambray
+            jianbing cupping vinyl sus locavore art party portland. Tousled
+            brunch blackbird spyplane, williamsburg seitan sus mumblecore
+            aesthetic.
           </p>
           <p className='mt-2 text-sm text-gray-700'>
             <ArrowLink href='https://github.com/theodorusclarence/ts-nextjs-tailwind-starter'>
               See the repository
             </ArrowLink>
           </p>
-
-          <ButtonLink className='mt-6' href='/template' variant='light'>
-            See all components
-          </ButtonLink>
-
-          <UnstyledLink
-            href='https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Ftheodorusclarence%2Fts-nextjs-tailwind-starter'
-            className='mt-4'
-          >
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              width='92'
-              height='32'
-              src='https://vercel.com/button'
-              alt='Deploy with Vercel'
-            />
-          </UnstyledLink>
+          
+          <FormEmbed />
+          */}
 
           <footer className='absolute bottom-2 text-gray-700'>
             © {new Date().getFullYear()} By{' '}

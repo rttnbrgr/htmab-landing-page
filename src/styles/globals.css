@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 :root {
+  --foreground: #383636;
+  --background: rgb(252, 223, 223);
   /* #region  /**=========== Primary Color =========== */
   --tw-color-primary-50: 250 250 250;
   --tw-color-primary-100: 245 245 245;
@@ -30,6 +32,12 @@
 }
 
 @layer base {
+  :root {
+    background-color: var(--background);
+    color: var(--foreground);
+    /* color: lime; */
+  }
+
   /* inter var - latin */
   @font-face {
     font-family: 'Inter';
@@ -77,11 +85,12 @@
   }
   /* #endregion  /**======== Typography =========== */
 
+  /* 1100px */
+  /* 
   .layout {
-    /* 1100px */
     max-width: 68.75rem;
     @apply mx-auto w-11/12;
-  }
+  } */
 
   .bg-dark a.custom-link {
     @apply border-gray-200 hover:border-gray-200/0;
