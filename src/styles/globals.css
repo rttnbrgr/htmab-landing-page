@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --foreground: #383636;
+  --foreground: #000;
   --background: rgb(252, 223, 223);
   /* #region  /**=========== Primary Color =========== */
   --tw-color-primary-50: 250 250 250;

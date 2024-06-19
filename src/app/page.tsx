@@ -5,6 +5,7 @@ import * as React from 'react';
 import '@/lib/env';
 
 import { BlackBox } from '@/components/black-box';
+import { FormEmbed } from '@/components/form-embed';
 import UnderlineLink from '@/components/links/UnderlineLink';
 import { PageBody } from '@/components/page-body';
 
@@ -24,30 +25,56 @@ export default function HomePage() {
       </Head>
       <PageBody>
         <BlackBox />
-        {/* You should write this */}
-        {/*
-
-          <h1 className='mt-4'>How to build a button</h1> 
-          <p className='mt-2 text-sm text-gray-800'>
-            I'm baby williamsburg flexitarian keffiyeh affogato bespoke ascot
-            bushwick whatever unicorn DIY man bun direct trade. Echo park
-            coloring book four loko tilde unicorn gentrify. Normcore shoreditch
-            JOMO meh cold-pressed cronut. Wolf pickled gluten-free blackbird
-            spyplane shaman butcher fashion axe kale chips. Poke roof party put
-            a bird on it asymmetrical chambray bitters iPhone keffiyeh. Chambray
-            jianbing cupping vinyl sus locavore art party portland. Tousled
-            brunch blackbird spyplane, williamsburg seitan sus mumblecore
-            aesthetic.
+        <div className='flex flex-col gap-4 px-6 py-6 max-w-[456px] sm:max-w-[500px] lg:pl-[50px]'>
+          {/* <h1 className='mt-4'>How to build a button</h1>  */}
+          {/* <p className='text-base'>
+            Learn how to design, develop, and publish a button from scratch! A
+            great introduction to the work of design systems and collaborating
+            across design, product, and engineering. 
+          </p> */}
+          <p className='text-base'>
+            Are you interested in dipping your toes into the design system
+            world, but feel overwhelmed about where to start? How do I build a
+            component system in Figma? How do I translate those into code? What
+            about managing the complexity as each of those change over time?
+            Don't forget, you're building a toolkit for the rest of your team so
+            you need to document how the whole thing works!
           </p>
+          <p className='text-base'>
+            If that sounds overwhelming, don't worry, we're gonna go through all
+            of it in this coures. You're gonna walk away confident that youc an
+            deliver high quality design system artifacts for your design and
+            development squad!
+          </p>
+
+          <p className='text-base'>
+            Sign up below to get notified when we launch the beta modules!
+          </p>
+          {/* <p className='text-base'>
+            Learn how to design, develop, and publish a button from scratch! A
+            great introduction to the work of design systems and collaborating
+            across design, product, and engineering. I'm baby williamsburg
+            flexitarian keffiyeh affogato bespoke ascot bushwick whatever
+            unicorn DIY man bun direct trade. Echo park coloring book four loko
+            tilde unicorn gentrify. Normcore shoreditch JOMO meh cold-pressed
+            cronut. Wolf pickled gluten-free blackbird spyplane shaman butcher
+            fashion axe kale chips. Poke roof party put a bird on it
+            asymmetrical chambray bitters iPhone keffiyeh. Chambray jianbing
+            cupping vinyl sus locavore art party portland. Tousled brunch
+            blackbird spyplane, williamsburg seitan sus mumblecore aesthetic.
+          </p> */}
+
+          {/* You should write this */}
+          {/*
           <p className='mt-2 text-sm text-gray-700'>
             <ArrowLink href='https://github.com/theodorusclarence/ts-nextjs-tailwind-starter'>
               See the repository
             </ArrowLink>
           </p>
-          
-          <FormEmbed />
           */}
-        <footer className='absolute bottom-2 text-gray-700'>
+          <FormEmbed />
+        </div>
+        <footer className='pt-8 text-gray-700'>
           © {new Date().getFullYear()} By{' '}
           <UnderlineLink href='https://rttnbrgr.com'>@rttnbrgr</UnderlineLink>
         </footer>

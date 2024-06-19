@@ -1,26 +1,3 @@
-#_form_6670CA48E28E3_._inline-form ._form-content {
-}
-
-/* Hide the header + description */
-#_form_6670CBC0263E8_ ._form_element {
-  border: 1px solid red;
-}
-
-#_form_6670CBC0263E8_ ._form_element:nth-child(1),
-#_form_6670CBC0263E8_ ._form_element:nth-child(x) {
-  border: 1px solid green;
-  display: none;
-}
-
-#_form_6670CA48E28E3_ ._form-content:nth-child(1),
-#_form_6670CA48E28E3_ ._form-content:nth-child(2) {
-  display: none;
-}
-
-/* Title */
-#_form_6670CA48E28E3_._inline-form ._form-title {
-}
-
-body {
-  background: pink;
+._form_27 form {
+  margin: 0 !important;
 }
