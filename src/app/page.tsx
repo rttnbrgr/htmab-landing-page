@@ -6,6 +6,7 @@ import '@/lib/env';
 
 import { BlackBox } from '@/components/black-box';
 import UnderlineLink from '@/components/links/UnderlineLink';
+import { PageBody } from '@/components/page-body';
 
 /**
  * SVGR Support
@@ -21,17 +22,10 @@ export default function HomePage() {
       <Head>
         <title>Hi</title>
       </Head>
-      <section className='bg-bg'>
-        {/* <ViewStarter /> */}
-        <div className='layout relative flex min-h-screen flex-col items-center justify-center py-12 text-center'>
-          {/*
-           * Black Box
-           * Clamp here instead of on text line lengths for mobile
-           */}
-          <BlackBox />
-
-          {/* You should write this */}
-          {/*
+      <PageBody>
+        <BlackBox />
+        {/* You should write this */}
+        {/*
 
           <h1 className='mt-4'>How to build a button</h1> 
           <p className='mt-2 text-sm text-gray-800'>
@@ -53,13 +47,11 @@ export default function HomePage() {
           
           <FormEmbed />
           */}
-
-          <footer className='absolute bottom-2 text-gray-700'>
-            © {new Date().getFullYear()} By{' '}
-            <UnderlineLink href='https://rttnbrgr.com'>@rttnbrgr</UnderlineLink>
-          </footer>
-        </div>
-      </section>
+        <footer className='absolute bottom-2 text-gray-700'>
+          © {new Date().getFullYear()} By{' '}
+          <UnderlineLink href='https://rttnbrgr.com'>@rttnbrgr</UnderlineLink>
+        </footer>
+      </PageBody>
     </main>
   );
 }
