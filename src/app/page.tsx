@@ -18,10 +18,6 @@ import UnstyledLink from '@/components/links/UnstyledLink';
  */
 import Logo from '~/svg/Logo.svg';
 
-// !STARTERCONF -> Select !STARTERCONF and CMD + SHIFT + F
-// Before you begin editing, follow all comments with `STARTERCONF`,
-// to customize the default configuration.
-
 export default function HomePage() {
   return (
     <main>
@@ -61,9 +57,7 @@ export default function HomePage() {
 
           <footer className='absolute bottom-2 text-gray-700'>
             © {new Date().getFullYear()} By{' '}
-            <UnderlineLink href='https://theodorusclarence.com?ref=tsnextstarter'>
-              Theodorus Clarence
-            </UnderlineLink>
+            <UnderlineLink href='https://rttnbrgr.com'>@rttnbrgr</UnderlineLink>
           </footer>
         </div>
       </section>
