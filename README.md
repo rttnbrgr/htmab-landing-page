@@ -1,3 +1,16 @@
+# Landing Page
+
+Originally created with the help of a [Next.js Starter](https://github.com/theodorusclarence/ts-nextjs-tailwind-starter) from [Theo](https://theodorusclarence.com). Not that Th3o.
+
+## Todo
+
+[ ] Finish setting up OG images
+[ ] Setup release workflow
+[ ] Modify homepage test
+[ ] Modify default meta
+
+<!-- Below here is from the templates -->
+
 # Next.js + Tailwind CSS + TypeScript Starter and Boilerplate
 
 <div align="center">
