@@ -5,8 +5,6 @@ import '@/styles/globals.css';
 
 import { siteConfig } from '@/constant/config';
 
-// !STARTERCONF Change these default meta
-// !STARTERCONF Look at @/constant/config to change them
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
@@ -37,14 +35,14 @@ export const metadata: Metadata = {
     title: siteConfig.title,
     description: siteConfig.description,
     images: [`${siteConfig.url}/images/og.jpg`],
-    // creator: '@th_clarence',
+    creator: '@rttnbrgr',
   },
-  // authors: [
-  //   {
-  //     name: 'Theodorus Clarence',
-  //     url: 'https://theodorusclarence.com',
-  //   },
-  // ],
+  authors: [
+    {
+      name: 'Nathan @rttnbrgr',
+      url: 'https://rttnbrgr.com',
+    },
+  ],
 };
 
 export default function RootLayout({
