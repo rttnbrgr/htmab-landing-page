@@ -35,20 +35,19 @@ export default function HomePage() {
           <p className='text-base'>
             Are you interested in dipping your toes into the design system
             world, but feel overwhelmed about where to start? How do I build a
-            component system in Figma? How do I translate those into code? What
-            about managing the complexity as each of those change over time?
-            Don't forget, you're building a toolkit for the rest of your team so
-            you need to document how the whole thing works!
+            component system in Figma? How do I translate that into code? What
+            about managing the complexity as those change over time? Don't
+            forget, you're building a toolkit for the rest of your team so you
+            need to document how the whole thing works!
           </p>
           <p className='text-base'>
-            If that sounds overwhelming, don't worry, we're gonna go through all
-            of it in this coures. You're gonna walk away confident that youc an
-            deliver high quality design system artifacts for your design and
-            development squad!
+            If that sounds like a lot, don't worry. We're gonna go through it
+            all in this coure. You're gonna walk away confident that you can
+            deliver high quality artifacts for your team's design system!
           </p>
 
           <p className='text-base'>
-            Sign up below to get notified when we launch the beta modules!
+            Sign up below to get notified when we launch the first modules!
           </p>
           {/* <p className='text-base'>
             Learn how to design, develop, and publish a button from scratch! A
