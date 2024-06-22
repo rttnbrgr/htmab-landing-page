@@ -23,7 +23,7 @@ export default function HomePage() {
       <Head>
         <title>Hi</title>
       </Head>
-      <PageBody>
+      <PageBody className='pt-0 pb-12 sm:py-4'>
         <BlackBox />
         <div className='flex flex-col gap-4 px-6 py-6 max-w-[456px] sm:max-w-[500px] lg:pl-[50px]'>
           {/* <h1 className='mt-4'>How to build a button</h1>  */}

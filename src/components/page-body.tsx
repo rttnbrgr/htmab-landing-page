@@ -2,9 +2,19 @@
 
 import * as React from 'react';
 
-export const PageBody = ({ children }: { children: React.ReactNode }) => {
+import { cn } from '@/lib/utils';
+
+type PagebodyProps = React.ComponentPropsWithoutRef<'div'>;
+
+export const PageBody = ({ children, className }: PagebodyProps) => {
   return (
-    <section className='layout relative flex min-h-screen flex-col items-center justify-center py-12 sm:px-4'>
+    <section
+      className={cn(
+        'layout relative flex min-h-screen flex-col items-center justify-start pt-0 pb-12',
+        'sm:justify-start sm:px-4 sm:py-4',
+        className
+      )}
+    >
       {children}
     </section>
   );
